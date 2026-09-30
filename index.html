@@ -4,13 +4,13 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Pester – Nag Until Done</title>
-<meta name="description" content="Pester is the Android reminder that pokes you every few minutes, louder each time, until you tap Done. Free for 3 reminders, $4.99 once for unlimited. No ads, no account.">
+<meta name="description" content="Pester is the Android reminder that pokes, nudges, then harasses you every few minutes until you tap Done. Free for 3 reminders, $4.99 once for unlimited. No ads, no account.">
 <link rel="canonical" href="https://pester.rickymcdaniel.net/">
 <meta name="theme-color" content="#E8552B">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Pester">
 <meta property="og:title" content="Pester – Nag Until Done">
-<meta property="og:description" content="The reminder that will not shut up until you tap Done. Every few minutes, a little louder each time: Nudge, Buzz, Alarm.">
+<meta property="og:description" content="The reminder that will not shut up until you tap Done. Every few minutes, climbing from Poke to Nudge to Harass.">
 <meta property="og:url" content="https://pester.rickymcdaniel.net/">
 <meta property="og:image" content="https://pester.rickymcdaniel.net/assets/og-image.png">
 <meta property="og:image:width" content="1200">
@@ -46,7 +46,7 @@
       <img class="hero-icon" src="assets/icon.svg" alt="Pester app icon" width="96" height="96">
       <h1><span class="app-title">Pester</span></h1>
       <p class="tagline">The reminder that will not shut up until you tap Done.</p>
-      <p class="lead">Ordinary reminders ring once and give up. Pester keeps coming back, every few minutes, a little louder each time, until the thing is actually done.</p>
+      <p class="lead">Ordinary reminders ring once and give up. Pester keeps coming back every few minutes, climbing from a Poke to a Nudge to a full-screen Harass, until the thing is actually done. Snooze it and Done makes you solve a puzzle first.</p>
       <div class="cta-row">
         <a class="play-badge" href="https://play.google.com/store/apps/details?id=com.rickymcdaniel.pester"><img src="assets/google-play-badge.png" alt="Get it on Google Play" width="646" height="250"></a>
         <a class="btn btn-ghost" href="#how">See how it works</a>
@@ -54,27 +54,28 @@
       <p class="cta-note">Android 8.0 and newer · Free for 3 active reminders · $4.99 once for unlimited · No ads, no subscription, no account</p>
     </div>
     <figure class="hero-shot">
-      <img src="assets/shot-01.webp" alt="Pester storyboard: the Waiting on you list, the reminder that will not shut up" width="540" height="960" fetchpriority="high">
+      <img src="assets/shot-01.webp" alt="Pester storyboard: the list of pesters, each card showing when it pokes next" width="540" height="960" fetchpriority="high">
     </figure>
   </div>
 </section>
 
 <section id="story">
+  <!-- The shot-0N.webp storyboards still show the 1.0 UI. Replace them with captures from the 1.1 app on the phone; the alt text and captions below already describe 1.1. -->
   <div class="wrap">
     <p class="eyebrow center" style="display:block">What it looks like</p>
-    <h2 class="center">One list, one job: what is still waiting on you</h2>
+    <h2 class="center">One screen, one job: what still needs doing</h2>
     <div class="shots">
       <figure class="shot">
-        <img src="assets/shot-02.webp" alt="Storyboard: Nudge, Buzz, Alarm. The full-screen alarm stage with a big Done button" width="540" height="960" loading="lazy">
-        <figcaption>A quiet nudge first. Ignore it and it climbs to a full-screen alarm.</figcaption>
+        <img src="assets/shot-02.webp" alt="Storyboard: the full-screen alarm with a big Done button, Snooze 10 min and Reschedule" width="540" height="960" loading="lazy">
+        <figcaption>A Poke first. Ignore it and it climbs through Nudge to Harass, a full-screen alarm.</figcaption>
       </figure>
       <figure class="shot">
-        <img src="assets/shot-03.webp" alt="Storyboard: Type it, pick a time, done. The New pester screen with interval and escalation ladder" width="540" height="960" loading="lazy">
-        <figcaption>One line and a time. Choose how often it pokes and when it escalates.</figcaption>
+        <img src="assets/shot-03.webp" alt="Storyboard: the New pester screen with the task, when, how often to poke and the escalation stages" width="540" height="960" loading="lazy">
+        <figcaption>Tap + for every option: date, time, repeat, and how each stage reaches you.</figcaption>
       </figure>
       <figure class="shot">
-        <img src="assets/shot-05.webp" alt="Storyboard: See what you finished. The Done log with time-to-Done and poke counts" width="540" height="960" loading="lazy">
-        <figcaption>The Done log shows how long each thing chased you.</figcaption>
+        <img src="assets/shot-05.webp" alt="Storyboard: finished pesters with their time to Done and how many pokes each took" width="540" height="960" loading="lazy">
+        <figcaption>The Done section shows how long each thing chased you.</figcaption>
       </figure>
     </div>
   </div>
@@ -89,32 +90,42 @@
       <div class="card">
         <div class="ico"><svg viewBox="0 0 24 24"><path d="M2 16h3v6H2zm5.3-4h3v10h-3zm5.4-4h3v14h-3zM18 3h3v19h-3z"/></svg></div>
         <h3>It escalates.</h3>
-        <p>A quiet Nudge first. Miss it and you get a Buzz with sound and vibration. Keep ignoring it and you get a full-screen Alarm over the lock screen. No cap. It stops when you tap Done.</p>
+        <p>Three stages. A Poke is one quick bell. Miss it and a Nudge rings and vibrates, 5 times. Keep ignoring it and Harass takes over the lock screen with a full-screen alarm that keeps going. No cap. It stops when you tap Done.</p>
       </div>
       <div class="card">
-        <div class="ico"><svg viewBox="0 0 24 24"><path d="M4 5h16v2H4zm0 6h16v2H4zm0 6h10v2H4z"/></svg></div>
-        <h3>Waiting on you.</h3>
-        <p>One list of everything still open. Each card shows when it pokes next and how many times it already has. Swipe right for Done, left to snooze.</p>
+        <div class="ico"><svg viewBox="0 0 24 24"><path d="M20.5 11H19V7c0-1.1-.9-2-2-2h-4V3.5C13 2.12 11.88 1 10.5 1S8 2.12 8 3.5V5H4c-1.1 0-1.99.9-1.99 2v3.8H3.5c1.49 0 2.7 1.21 2.7 2.7s-1.21 2.7-2.7 2.7H2V20c0 1.1.9 2 2 2h3.8v-1.5c0-1.49 1.21-2.7 2.7-2.7 1.49 0 2.7 1.21 2.7 2.7V22H17c1.1 0 2-.9 2-2v-4h1.5c1.38 0 2.5-1.12 2.5-2.5S21.88 11 20.5 11z"/></svg></div>
+        <h3>Punishments.</h3>
+        <p>Snooze a pester and Done stops being one tap. Once: a simple sum. Twice: a word search. Three times or more: type ten real words of seven letters or more. The sound keeps going while you solve it. On by default. You can switch them off in Settings, but where is the fun in that?</p>
       </div>
       <div class="card">
         <div class="ico"><svg viewBox="0 0 24 24"><path d="M12 14a3 3 0 0 0 3-3V5a3 3 0 0 0-6 0v6a3 3 0 0 0 3 3zm5-3a5 5 0 0 1-10 0H5a7 7 0 0 0 6 6.9V21h2v-3.1A7 7 0 0 0 19 11h-2z"/></svg></div>
-        <h3>Type it like you'd say it.</h3>
-        <p>"Move laundry in 20m" or "call the vet at 6:30" and Pester picks the time. Chips for in 15 min, in 1 h, tonight and tomorrow morning. Or hit the mic and speak it.</p>
+        <h3>Quick add, always there.</h3>
+        <p>Type the task in the bar at the bottom, or tap the mic and say it. Tap 15 m, 30 m, 1 h or Custom and send. It uses your defaults. Type "move laundry in 20m" or "call the vet at 6:30" and Pester picks the time.</p>
+      </div>
+      <div class="card">
+        <div class="ico"><svg viewBox="0 0 24 24"><path d="M7 7h10v3l4-4-4-4v3H5v6h2V7zm10 10H7v-3l-4 4 4 4v-3h12v-6h-2v4z"/></svg></div>
+        <h3>Every option behind the +.</h3>
+        <p>The + opens the full page: pick the date and time, repeat it daily, on weekdays, weekly on the days you choose, monthly or every few days, and set how each stage reaches you for this one pester.</p>
+      </div>
+      <div class="card">
+        <div class="ico"><svg viewBox="0 0 24 24"><path d="M12 3v10.55c-.59-.34-1.27-.55-2-.55-2.21 0-4 1.79-4 4s1.79 4 4 4 4-1.79 4-4V7h4V3h-6z"/></svg></div>
+        <h3>Your sounds, your way.</h3>
+        <p>Each stage gets its own delivery: quick bell, bell + vibrate, full-screen alarm + vibrate, or vibrate only. Pick its sound from a built-in library, soft ding to siren, use one from your phone, or record your own. Add a camera-light flash if you like.</p>
       </div>
       <div class="card">
         <div class="ico"><svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20zm.5 5v5.2l3.5 2.1-.8 1.2L11 13V7h1.5z"/></svg></div>
         <h3>Snooze without escaping.</h3>
-        <p>Snooze 10 minutes or an hour, reschedule to a real time, or tap Forget it. Every option is on the notification and on the ringing screen, so you never have to open the app in a hurry.</p>
+        <p>Snooze 10 minutes or an hour, reschedule to a real time, or tap Forget it. Done and Snooze are on the notification and the ringing screen, so you never have to open the app in a hurry.</p>
       </div>
       <div class="card">
         <div class="ico"><svg viewBox="0 0 24 24"><path d="M12 3a9 9 0 1 0 9 9c0-.5 0-1-.1-1.4A6 6 0 0 1 13.4 3.1C13 3 12.5 3 12 3z"/></svg></div>
         <h3>Quiet hours that don't quit.</h3>
-        <p>Between the hours you set, pokes stay silent. They do not stop. They are waiting for the morning.</p>
+        <p>Between the hours you set, pokes arrive silently. They do not stop. They are waiting for the morning.</p>
       </div>
       <div class="card">
-        <div class="ico"><svg viewBox="0 0 24 24"><path d="M9 16.2 4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4z"/></svg></div>
-        <h3>Done log.</h3>
-        <p>What you finished, how long each thing took to chase you, your longest chase. Bring anything back with one tap. Entries clear themselves after 30 days.</p>
+        <div class="ico"><svg viewBox="0 0 24 24"><path d="M4 5h16v2H4zm0 6h16v2H4zm0 6h10v2H4z"/></svg></div>
+        <h3>One screen.</h3>
+        <p>Upcoming on top, Done below. Each section folds away and stays the way you left it. Done shows what you finished, how long it took and how many pokes it needed, and brings anything back with one tap. Light, Dark or Follow system.</p>
       </div>
     </div>
   </div>
@@ -125,13 +136,13 @@
     <p class="eyebrow">How it works</p>
     <h2>Three steps, then it is Pester's problem</h2>
     <ol class="steps">
-      <li><h3>Write it and pick a time.</h3><p>"What must get done?" A task, a time, and optionally how often to poke and when to escalate. Defaults are sensible.</p></li>
-      <li><h3>Get poked.</h3><p>At the time you set, a Nudge. Every few minutes after that, another one, climbing to Buzz and then Alarm the longer you leave it.</p></li>
-      <li><h3>Tap Done.</h3><p>That is the only thing that ends it. Or snooze and reschedule if you honestly cannot right now.</p></li>
+      <li><h3>Type it, tap a time.</h3><p>"What must get done?" Type or say it in the quick-add bar, tap 15 m, 30 m, 1 h or Custom, and send. Want a date, a repeat or a different escalation? Tap + instead.</p></li>
+      <li><h3>Get poked.</h3><p>At the time you set, a Poke. Every few minutes after that, another one, climbing to Nudge and then Harass the longer you leave it.</p></li>
+      <li><h3>Tap Done.</h3><p>That is the only thing that ends it. Snooze or reschedule if you honestly cannot right now. Just know that a snooze makes Done harder.</p></li>
     </ol>
     <div class="card" style="margin-top:1.5rem">
       <h3>Also in the box</h3>
-      <p>Home-screen widget showing what is waiting on you · Quick Settings tile for a new pester · a reliability check in Settings with a 3-second test poke · export and import your reminders as a JSON file.</p>
+      <p>Home-screen widget showing what is upcoming · Quick Settings tile for a new pester · a 3-page walkthrough that turns on everything Pester needs to ring on time · Settings you can search · back up and restore your pesters with a .pes file.</p>
     </div>
   </div>
 </section>
@@ -145,12 +156,12 @@
       <div class="price">
         <span class="pill">Free</span>
         <div class="amount">$0</div>
-        <p class="muted">Up to 3 active reminders, every feature, forever.</p>
+        <p class="muted">Up to 3 active reminders (a repeating one counts once), every feature, forever.</p>
         <ul>
-          <li>Full Nudge, Buzz, Alarm ladder</li>
-          <li>Waiting on you list and Done log</li>
+          <li>Poke, Nudge and Harass, with your own sounds</li>
+          <li>Punishments, repeats and quick add</li>
           <li>Quiet hours, widget, Quick Settings tile</li>
-          <li>Export and import</li>
+          <li>Dark mode and .pes backups</li>
         </ul>
       </div>
       <div class="price featured">
@@ -173,10 +184,12 @@
     <p class="eyebrow">FAQ</p>
     <h2>Questions people ask</h2>
     <div class="faq">
-      <details><summary>What if I really can't do it right now?</summary><p>Snooze it for 10 minutes or an hour, or reschedule it to a real time. Snoozing pauses the loop; it does not end it. Forget it ends it, no judgement.</p></details>
-      <details><summary>Will it ring through Do Not Disturb?</summary><p>Only if you turn on "Bypass Do Not Disturb" in Settings, which asks Android for the extra permission. It is off by default, and quiet hours let you silence pokes at night without stopping them.</p></details>
-      <details><summary>Why does it ask for so many permissions?</summary><p>Because nagging on time is hard on Android. Each one is listed below with the reason. The reliability check in Settings shows which are granted and offers a Fix button for each. Pester has no reason to talk to the internet and does not.</p></details>
-      <details><summary>Does anything leave my phone?</summary><p>No. There is no account, no cloud, no analytics. Your reminders live in Pester's own storage on the phone. Back them up yourself with Export.</p></details>
+      <details><summary>What if I really can't do it right now?</summary><p>Snooze it for 10 minutes or an hour, or reschedule it to a real time. Snoozing pauses the loop; it does not end it, and with Punishments on it makes Done harder. Forget it ends it, no judgement.</p></details>
+      <details><summary>What are Punishments?</summary><p>Pester's answer to the snooze button. Snooze a pester once and Done asks for a simple sum first. Twice, a word search. Three times or more, you type ten real words of seven letters or more, and pasting is switched off. The sound keeps going while you solve it, and "Leave it for now" closes the puzzle, not the noise. Punishments are on by default. Turn them off in Settings &gt; Defaults and Done is one tap again.</p></details>
+      <details><summary>Can I record my own alarm sound?</summary><p>Yes. In any sound picker, or in Settings &gt; Sounds, tap Record and record up to 10 seconds. Android asks for the microphone then, and only then; say no and everything else still works. The recording is saved on your phone and never leaves it. You can also use one of your phone's own sounds or an audio file. Your own sounds are not included in .pes backups, so pesters restored on another phone use a built-in sound instead.</p></details>
+      <details><summary>Will it ring through Do Not Disturb?</summary><p>Full-screen alarms already sound through most Do Not Disturb modes. For the rest, turn on "Ring through Do Not Disturb" in Settings &gt; Reliability, which asks Android for the extra permission. It is off by default, and quiet hours let you silence pokes at night without stopping them.</p></details>
+      <details><summary>Why does it ask for so many permissions?</summary><p>Because nagging on time is hard on Android. Each one is listed below with the reason. The first-run walkthrough turns them on one after another, and Settings &gt; Reliability shows which are granted with a Fix button for each. Pester has no reason to talk to the internet and does not.</p></details>
+      <details><summary>Does anything leave my phone?</summary><p>No. There is no account, no cloud, no analytics. Your pesters and any sounds you record live in Pester's own storage on the phone. Back up your pesters yourself to a .pes file in Settings &gt; Data.</p></details>
     </div>
   </div>
 </section>
@@ -185,14 +198,16 @@
   <div class="wrap">
     <p class="eyebrow">Permissions</p>
     <h2>Permissions in plain words</h2>
-    <p class="lead">Each one is asked for at the moment it is needed, with an explanation on screen first. The reliability check in Settings shows what is granted.</p>
+    <p class="lead">Each one is asked for when it is needed, with an explanation on screen first. The first-run walkthrough turns on the ones that keep Pester on time, and Settings &gt; Reliability shows what is granted.</p>
     <ul class="perms">
       <li><b>Notifications</b><span>Every poke is a notification. Without this there is nothing to nag you with.</span></li>
       <li><b>Alarms and reminders (exact alarms)</b><span>A poke has to land at 7:30, not "sometime after". Pester uses exact alarms so it stays on time while the phone is dozing.</span></li>
-      <li><b>Full-screen notifications (Android 14 and newer)</b><span>Lets the Alarm stage open over the lock screen. Refuse it and Pester falls back to a loud heads-up notification.</span></li>
+      <li><b>Full-screen notifications (Android 14 and newer)</b><span>Lets Harass, or any stage you set to a full-screen alarm, open over the lock screen. Refuse it and Pester falls back to a loud heads-up notification.</span></li>
       <li><b>Run at startup</b><span>After a reboot Pester re-arms your active reminders.</span></li>
-      <li><b>Battery optimisation exemption</b><span>Optional. Some phones pause background apps and delay alarms; the reliability check offers the exemption and explains it.</span></li>
-      <li><b>Do Not Disturb access</b><span>Optional, only if you turn on Bypass Do Not Disturb.</span></li>
+      <li><b>Battery optimisation exemption</b><span>Optional. Some phones pause background apps and delay alarms; the walkthrough and Settings &gt; Reliability offer the exemption and explain it.</span></li>
+      <li><b>Do Not Disturb access</b><span>Optional, only if you turn on Ring through Do Not Disturb.</span></li>
+      <li><b>Microphone</b><span>Optional, and only asked when you tap Record to make your own alert sound. The recording is saved on this phone and never leaves it. Speaking a task uses your phone's own speech recogniser instead.</span></li>
+      <li class="no"><b>Camera</b><span>Not requested. The flash option blinks the camera light, which needs no permission. Pester cannot see through the camera.</span></li>
       <li class="no"><b>Internet</b><span>Not requested. Pester has no internet permission, so it cannot send anything anywhere. The one-time purchase is handled by Google Play itself.</span></li>
     </ul>
   </div>
@@ -201,7 +216,7 @@
 <section class="center" id="download">
   <div class="wrap">
     <h2>Stop losing the small things</h2>
-    <p class="lead">Free for three reminders, the full ladder, no ads.</p>
+    <p class="lead">Free for three reminders, every feature, no ads.</p>
     <div class="cta-row center">
       <a class="play-badge" href="https://play.google.com/store/apps/details?id=com.rickymcdaniel.pester"><img src="assets/google-play-badge.png" alt="Get it on Google Play" width="646" height="250" loading="lazy"></a>
     </div>
